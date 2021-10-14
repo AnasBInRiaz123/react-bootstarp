@@ -11,3 +11,115 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Light{
+  color: #242526;
+  background-attachment: fixed;
+  background-image: url(light-image.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.Dark{
+  background: url(dark-image.jpg);
+  color: #fff;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+img#icon {
+  width: 30px;
+  margin:5px 10px ;
+  background: #00adff;
+  padding: 5px;
+  border-radius: 100%;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+img#icon:hover {
+  background: #3bbdfa;
+  transform: scale(1.2);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+input#city {
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 10px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+p#desc {
+  font-size: 150%;
+}
+button {
+  width: 100px;
+  height: 40px;
+  background: #00adff;
+  font-size: medium;
+  color: #000;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 50px;
+}
+button:hover{
+  transform: scale(1.2);
+  background-color: #34bfff;
+}
+
+li {
+  padding: 5px;
+  font-size: larger;
+  font-weight: 900;
+}
+p {
+  font-weight: 900;
+  margin: 5px;
+  font-size: 125%;
+}h1#temp {
+  font-size: 500%;
+}
+ul {
+  /* background: rgb(0 0 0 / 82%); */
+  /* color: #fff; */
+  padding: 20px 50px;
+  opacity: 1;
+  list-style: circle;
+  margin: 10px;
+  border-radius: 50px;
+}
+.hidden{display: none;}
+.div1 {
+  /* background: rgb(0 0 0 / 82%); */
+  /* color: #fff; */
+  padding: 0px 40px;
+  border-radius: 25px;
+  margin: 10px;
+}
+h1 {
+  margin-top: 10px;
+}
+.div2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
